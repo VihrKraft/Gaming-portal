@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+* {
+    margin: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: "Rubik Marker Hatch", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    position: sticky;
+    top: 0;
+    height: fit-content;
+    background-color: #c11515;
+    box-sizing: border-box; 
+
+}
+.sticky__nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 0 20px 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    margin: 30px;
+    height: 220px;
+    text-align: center;
+    background: url("background.png") center/cover no-repeat;
+}
+.footer__title {
+    padding-top: 60px;
+}
+.footer__text {
+    margin-top: 20px;
+}
+.footer__button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    font-size: 20px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 3s;
+    z-index: 1;
+}
+.block {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+.main__content {
+    overflow-x: hidden;
+}
+.main__slogan {
+    width: 40%;
+    box-sizing: border-box;
+}
+.main__image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__info {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.main__about-game {
+    clear: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main__image {
+    height: 500px;
+
+}
+.main__about-image {
+    width: 100%;
+}
+.about__hd {
+    margin-right: 3%;
+}
+.about__dlc {
+    margin-top: 2%;
+}
+.about {
+    width: 37%;
+    text-align: center;
+}
+.about__weapon {
+    text-align: left;
+    margin: 20px auto 20px auto;
+    width: 45%;
+}
+span {
+    font-weight: bold;
+}
+.weapon__text {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.weapon__list {
+    margin-top: 10px;
+    position: relative;
+}
+.sticky__nav:hover{
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+.block:hover {
+    opacity: 0.8;
+    transition: all 0.7s ease-in-out;
+}
+.about__hd:hover {
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+}
+.about__dlc:hover {
+    opacity: 0.8;
+    transition: all 1.5s ease-in-out;
+}
+.weapon__text:hover {
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+}
+.weapon__list:hover {
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+}
+.about__screens:hover {
+    opacity: 0.8;
+    transition: all 0.7s ease-in-out;
+}
