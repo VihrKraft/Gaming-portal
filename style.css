@@ -25,6 +25,7 @@ header {
     font-weight: 600;
     font-size: 18px;
     padding: 20px 0 20px 0;
+    transition: opacity 0.3s ease-in-out;
 }
 a {
     color: white;
@@ -85,6 +86,7 @@ footer {
     padding: 20px;
     line-height: 24px;
     box-sizing: border-box;
+    transition: opacity 0.7s ease-in-out;
 }
 .main__content {
     overflow-x: hidden;
@@ -122,14 +124,14 @@ footer {
 }
 .about__hd {
     margin-right: 3%;
-    transition: 0.6s ;
+    transition: opacity 0.5s ease-in-out;
 }
 .about__screens {
     transition: 0.6s 0.3s;
 }
 .about__dlc {
     margin-top: 2%;
-    transition: 0.6s 0.6s;
+    transition: opacity 1.5s ease-in-out;
 }
 .about {
     width: 37%;
@@ -158,50 +160,22 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateY(2px) translateX(2px);
-    transition: 0.4s;
+    transition: opacity 0.4s ease-in-out;
 }
 .weapon__list {
     margin-top: 10px;
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    transition: 0.4s;
+    transition: opacity 0.4s ease-in-out;
 }
 .active.weapon__list {
     position: relative;
     visibility: visible;
     opacity: 1;
-    transition: 0.4s;
+    transition: opacity 0.4s ease-in-out;
 }
 .active.weapon__text::after {
     transform: rotate(90deg) translateY(-2px) translateX(2px);
-    transition: 0.4s;
-}
-.sticky__nav:hover{
-    opacity: 0.8;
-    transition: all 0.3s ease-in-out;
-}
-.block:hover {
-    opacity: 0.8;
-    transition: all 0.7s ease-in-out;
-}
-.about__hd:hover {
-    opacity: 0.8;
-    transition: all 0.5s ease-in-out;
-}
-.about__dlc:hover {
-    opacity: 0.8;
-    transition: all 1.5s ease-in-out;
-}
-.weapon__text:hover {
-    opacity: 0.8;
-    transition: all 0.4s ease-in-out;
-}
-.weapon__list:hover {
-    opacity: 0.8;
-    transition: all 0.4s ease-in-out;
-}
-.about__screens:hover {
-    opacity: 0.8;
-    transition: all 0.7s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
 }
